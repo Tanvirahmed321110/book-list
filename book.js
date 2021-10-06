@@ -3,7 +3,7 @@
      const spinner=document.getElementById('spinner').style.display=noneOrInline
  }
 
- document.getElementById('body').addEventListener('mouseout',function(){
+ document.getElementsByTagName('main')[0].addEventListener('mouseout',function(){
      spinnerToggle('none')
  })
 
